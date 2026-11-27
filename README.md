@@ -20,3 +20,5 @@ Weekly rates use ratios of summed amounts. Net fee is gross fee minus credits. F
 ## Hosting
 
 The app is entirely contained in `index.html`; no build, backend or external libraries are required. GitHub Pages serves the root of `main`. Its Content Security Policy blocks outbound data connections. Only synthetic data belongs in this public repository.
+
+The **Impact analysis** tab adds configurable pre/post periods and independent control/impacted group rules. It defaults to SP versus non-SP and includes control-adjusted GMV, an expected/actual chart with hover values, and gross-fee elasticity for the US synthetic data. UK supports GMV only. Prior-year comparison uses a 364-day weekday alignment in this view. Sample outcomes are invented to illustrate the calculations; no source business records or sizing projections are included.
