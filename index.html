@@ -173,6 +173,7 @@ function generateDemo(resetRange=true){state.sales=[];state.listings=[];state.re
 $('demo').onclick=()=>generateDemo();
 function updateSiteUI(){
  $('site-label').textContent=state.site;
+ $('trend-title').textContent=`Metrics trends · ${state.site} · ${$('grain').value==='weekly'?'Weekly':'Daily'}`;
  const fees=T.sites[state.site].revenue;
  $('metric-view').querySelector('option[value="fees"]').disabled=!fees;
  if(!fees&&$('metric-view').value==='fees')$('metric-view').value='all';
