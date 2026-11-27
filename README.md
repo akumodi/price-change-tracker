@@ -4,6 +4,8 @@ A static, browser-only metrics dashboard using synthetic demo data. No business 
 
 ## Explore the dashboard
 
+- Choose **Marketplace → US or UK**. UK provides GMV, sold items, sales ASP, active listings, new listings and ended listings. UK fee views are unavailable. Both marketplaces use synthetic data and USD labels. Switching resets filters/control/event settings and preserves the date range.
+
 - Opens with the last completed calendar month (Asia/Kolkata timezone), with synthetic charts already populated. Choose any date range or use **Last completed month** to return.
 - Compact filters and metric choices are always visible.
 - Choose daily or weekly aggregation.
